@@ -1,7 +1,0 @@
-Link de Seguimientos del Estándar Web:
-
-Can I Use:
-https://caniuse.com
-
-W3C:
-https://dev.w3.org/html5/spec-LC/
