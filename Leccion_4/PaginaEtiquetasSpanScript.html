@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ejemplo de uso de JavaScript con <span></title>
+</head>
+<body>
+
+<p>Haz clic en el texto para cambiarlo: <span id="texto-clickeable">¡Haz clic aquí!</span></p>
+
+<script>
+    document.getElementById("texto-clickeable").onclick = function() {
+        this.innerHTML = "¡Texto cambiado!";
+    };
+</script>
+
+</body>
+</html>
