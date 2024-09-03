@@ -1,0 +1,9 @@
+Validacion de Estándar Web:
+
+W3C:
+https://validator.w3.org
+
+Validación de uso de Navegadores (%):
+
+Browser Statistics:
+https://www.w3schools.com/browsers/
