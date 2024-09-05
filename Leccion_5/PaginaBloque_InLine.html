@@ -1,25 +1,23 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>Ejemplo de Elementos de Bloque e Inline</title>
-    <style>
-        .bloque {
-            border: 1px solid black; /* Añade un borde para ver el comportamiento */
-        }
-        .inline {
-            color: blue; /* Aplica color solo al texto */
-        }
-    </style>
+  <meta charset="utf-8">
+  <title>div and span elements</title>
 </head>
 <body>
+    <!-- El div funciona como separador, además es un contenedor genérico que se utiliza para agrupar otros elementos HTML y aplicarlos estilos o scripts específicos.><-->
 
-<p class="bloque">Este es un párrafo (elemento de bloque). Siempre comienza en una nueva línea y ocupa todo el ancho disponible.</p>
 
-<span class="inline">Este es un texto en línea (inline),</span>
-<span class="inline">y este es otro texto en línea.</span>
+  <div>*** DIV 1: Some content here ***</div>
+  <p>*** DIV 2: Following right after div 1 ***</p>
+  <!-- Se mostrará como una linea nueva porque tanto div como p crean nuevos bloques. Es espaciado dependerá de lo que usemos, porque div a diferencia de p, no tiene márgenes.><-->
 
-<p class="bloque">Otro párrafo (bloque) que comienza en una nueva línea.</p>
+  <span>*** SPAN 1: Following right after div 2 ***</span>
 
+  <div>
+    *** DIV 3: Following right after span 1 
+    <span>*** SPAN 2: INSIDE div 3 ***</span>
+    Continue content of div 3 ***
+  </div>
 </body>
 </html>
