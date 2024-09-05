@@ -1,4 +1,4 @@
-Link de Seguimientos del Estándar Web:
+Link de Seguimientos Estándar Web:
 
 Can I Use:
 https://caniuse.com

@@ -1,4 +1,4 @@
-Validacion de Estándar Web:
+Validacion Estándar Web:
 
 W3C:
 https://validator.w3.org
