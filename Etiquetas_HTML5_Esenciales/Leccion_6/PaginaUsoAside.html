@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de Aside</title>
+  <style>
+    /* Estilos para el layout */
+    body {
+      display: flex; /* Usar Flexbox para alinear el contenido principal y el aside. Este display Flex determina la posición de mi Aside.*/
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    main {
+      flex: 9; /* Mayor proporción para el contenido principal. Esto funciona porque usamos nuestro display flex. */
+      padding: 20px;
+    }
+
+    aside {
+      flex: 1; /* Menor proporción para el contenido adicional Esto funciona porque usamos nuestro display flex.*/
+      background-color: #f0f0f0; /* Fondo claro para diferenciarlo */
+      padding: 20px;
+      margin-left: 10px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    h2 {
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <!-- Contenido Principal -->
+  <main>
+    <h1>Artículo Principal: Beneficios del Ejercicio Diario</h1>
+    <p>
+      Hacer ejercicio regularmente es fundamental para mantener una buena salud física y mental. Mejora la circulación, incrementa la resistencia cardiovascular, fortalece los músculos y ayuda a controlar el peso, entre otros beneficios.
+    </p>
+    <p>
+      Estudios demuestran que incluso una caminata rápida de 30 minutos al día puede tener un impacto positivo significativo en tu bienestar general...
+    </p>
+  </main>
+
+  <!-- Contenido Adicional en el Aside -->
+  <aside>
+    <h2>Artículos Relacionados</h2>
+    <ul>
+      <li><a href="articulo-1.html">Cómo iniciar una rutina de ejercicios en casa</a></li>
+      <li><a href="articulo-2.html">Los mejores alimentos para acompañar tu entrenamiento</a></li>
+      <li><a href="articulo-3.html">Beneficios del yoga para la salud mental</a></li>
+    </ul>
+
+    <h2>Sobre el Autor</h2>
+    <p>María Pérez es una entrenadora personal certificada con más de 10 años de experiencia en la industria del fitness. Ha ayudado a cientos de personas a alcanzar sus objetivos de salud.</p>
+  </aside>
+</body>
+</html>
